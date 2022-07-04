@@ -1,0 +1,137 @@
+* {
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    font-family: arial;
+    font-size: 14px;
+}
+
+#htmlSearch{
+    height:100%;
+    background-color: #fffff7;
+}
+
+.trigger {
+    cursor: pointer;
+    cursor: hand;
+    display: block;
+}
+
+.branch {
+    display: none;
+    margin-left: 16px;
+}
+
+a {
+    color: #933;
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 85%;
+    cursor: pointer;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+label {
+    color: #933;
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 85%;
+    cursor: pointer;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+span {
+    color: #993333;
+}
+
+a:hover {
+    text-decoration: none;
+     color: #CC0000;
+}
+
+label:hover {
+    text-decoration: none;
+     color: #CC0000;
+}
+
+span:hover {
+    color: #CC0000;
+}
+
+span img {
+    float: left;
+    clear:both;
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+body.toc {
+    margin: 0;
+    background-color: #fffff7;
+    text-indent: 0pt;
+    font-family: arial;
+    font-size: 11px;
+    color: navy;
+    background: none repeat scroll 0% 0% #5A5752;
+}
+
+.activeItemMenu {
+    color:#CC0000;
+    font-weight:bold;
+}
+
+.searchItemMenu {
+    color:#258127;
+    /* color:#C69886; */
+    /* color:#FF0000; */
+}
+
+#searchForMenuInput {
+    padding: 0px 40px 0 5px;
+    margin: 0 5px 10px 0px;
+    float:left;
+    /* width:calc(100% - 50px); */
+    width:98%;
+    height:1.7em;
+    border-radius: 0.4em;
+    -moz-user-select: text;
+    background: #fff;
+    border: 1px solid #b7b7b7;
+    color: #933;
+}
+
+#searchForMenuSubmit {
+    float:left;
+    height: 20px;
+    width:20px;
+    margin: 3px 0 0-45px;
+}
+#searchForMenuClear{
+    float:left;
+    width:20px;
+    height:20px;
+    //transform: rotate(45deg);
+    cursor: pointer;
+    margin: 3px 0 0-25px;
+}
+
+#inputsForSearch{
+    margin: 0;
+    padding-top: 5px;
+}
+
+input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }

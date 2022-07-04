@@ -1,0 +1,110 @@
+﻿.leaflet-control-find {
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+    .leaflet-control-find a, .leaflet-control-find div {
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        /*padding: 2px;*/
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+
+    .leaflet-control-find a {
+        height: 24px;
+        width: 24px;
+        display: inline-block;
+    }
+
+    .leaflet-control-find div {
+    }
+
+.leaflet-control-find-edit {
+    background-image: url('../../Map/Images/button_search.png');
+    background-size: 24px;
+    /*border: 1px solid blue;
+    border-radius: 3px;*/
+}
+
+.leaflet-control-find-edit-on {
+    background-image: url('../../Map/Images/button_search_on.png');
+    background-size: 24px;
+}
+
+.leaflet-control-find-delete {
+    margin-left: 5px;
+    background-image: url('../../Map/Images/button_ruler.png');
+    background-size: 24px;
+}
+
+a.leaflet-control-find-active {
+    /*background-image: url('../../Map/Images/button_info.png');*/
+    /*border: 1px solid red;*/
+    /*border-radius: 3px;*/
+}
+
+input.leaflet-control-find-text {
+    background-color: white;
+    border: 1px solid #a3a3a3;
+    border-radius: 3px;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    height: 20px;
+    /*line-height: 20px;*/
+    padding: 0 6px;
+    visibility: visible;
+    width: 98px;
+    margin: 3px;
+}
+
+.leaflet-control-find-list {
+    /*pointer-events:none;*/
+    width: 156px;
+    height: 24px;
+    margin: 3px;
+}
+
+.leaflet-control-find-listContainer {
+    border: 1px solid #a3a3a3;
+    border-radius: 3px;
+    font-family: arial;
+    font-size: 11px;
+}
+
+.prop-inactive {
+    display: none !important;
+}
+
+.leaflet-control-find-btn {
+    background-image: url('../../Map/Images/button_search.png');
+    background-size: 20px;
+}
+
+a.leaflet-control-find-btn {
+    height: 22px !important;
+    width: 24px !important;
+    margin-bottom: -5px;
+    margin-left: -3px;
+    margin-right: 2px;
+}
+
+.leaflet-control-find-listRange {
+    width: 112px;
+    margin: 3px;
+}
+
+.leaflet-control-clear-btn {
+    background-image: url('../../Map/Images/button_clear.png');
+    background-size: 20px;
+}
+
+a.leaflet-control-clear-btn {
+    height: 24px !important;
+    width: 24px !important;
+    margin-bottom: -6px;
+    margin-left: -3px;
+}

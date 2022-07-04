@@ -1,0 +1,66 @@
+<html>
+<head>
+    <meta name="Product name" content="Ukraine. Radioactive contamination. Second edition, enlarged.">
+    <meta name="Developer" content="Intelligence Systems-GEO Ltd, 2002, 2008, 2011 (prepress)">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="00_System/Style/style.css">
+
+    <script lang="JavaScript">
+        var IsLocal = true;
+
+        //ukr, rus, eng
+        var Language = "eng";
+
+        var Version = "?ver=0.12";
+
+        var pageTitle = {
+            "ukr": "Україна. Радіоактивне забруднення. Видання друге, доповнене",
+            "rus": "Украина. Радиоактивное загрязнение. Издание второе, дополненное",
+            "eng": "Ukraine. Radioactive contamination. Second edition, enlarged."
+        };
+    </script>
+</head>
+
+<script language="JavaScript">
+    function InitFrames() {
+        frames['contents'].location = '00_System/welcome_' + Language + '.htm';
+        try {
+            if (IsLocal) {
+                frames['toc'].location = "00_System/menu/menu_local_" + Language + ".html"
+            }
+            else {
+                frames['toc'].location = "00_System/menu/menu_" + Language + ".html"
+            }
+            this.window.document.title = pageTitle[Language];
+        }
+        catch (aError) {
+            alert("При инициализации дерева произошла ошибка!\r\nБудет загружено дерево по умолчанию! ");
+            frames['toc'].location = "00_System/toc_ukr.htm";
+        }
+    }
+</script>
+
+<frameset border="0" frameborder="0" framespacing="0" name="scripts_navigation" rows="*" onload="InitFrames()">
+<frameset name="toc_contents" border="0" frameborder="0" framespacing="0" cols="275,*">
+    <frameset rows="70,*">
+        <frame name="header" scrolling="no" src="00_System/Header.html">
+        <frame name="toc" scrolling="auto" target="contents">
+    </frameset>
+<frameset rows="*">
+<frame name="contents" scrolling="auto">
+<frame name="bottom" src="00_System/footer.htm" scrolling="no" noresize target="contents">
+</frameset>
+</frameset>
+<noframes>
+
+<body scroll="yes">
+
+<p>This page uses frames, but your browser doesn't support them.</p>
+
+</body>
+
+</noframes>
+</frameset>
+
+</html>

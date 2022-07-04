@@ -1,0 +1,354 @@
+﻿.label-objectHint {
+    color: #000000 !important;
+    cursor: pointer !important;
+    margin-left: 7px !important;
+    position: absolute !important;
+    margin-top: 5px !important;
+    background-color: white !important;
+    border: 1px solid #a3a3a3 !important;
+    border-radius: 3px !important;
+    font-family: arial !important;
+    font-size: 10pt !important;
+    font-weight: normal !important;
+    width: auto !important;
+    padding: 0 6px !important;
+}
+
+.leaflet-label-hide {
+    display: none;
+}
+
+.label-NotShow {
+    display: none !important;
+}
+
+.label-5_6_Z_m_l_r_b {
+    /*- справа, черный, Arial, 9, bold, AllCaps, halo-светлосерый*/
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-5_6_Z_m_l_r {
+    /*- справа, черный, Arial, 9, AllCaps, halo-светлосерый;*/
+    font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-5_6_Z_oth_l_d {
+    /*- снизу, черный, Arial, 8, halo-светлосерый;*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: none;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-5_6_Z_oth_l_u {
+    /*- сверху, черный, Arial, 8, halo-светлосерый;*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: none;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-5_6_Z_oth_l_r {
+    /*- справа, черный, Arial, 8, halo-светлосерый;*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: none;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-5_6_Z_oth_l_l {
+    /*- слева, черный, Arial, 8, halo-светлосерый;*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: none;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-8_z_Kyiv {
+    /*- справа, черный, Arial, 9, bold, AllCaps, halo(оно же "неоновое свечение") - светлосерый, offset - 3 pt*/
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+    margin-left: 1px;
+}
+
+.label-8_z_Simf {
+    /*- справа, черный, Arial, 8, bold, AllCaps, halo(оно же "неоновое свечение") - светлосерый, offset - 4 pt*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+    margin-left: 1px;
+}
+
+.label-8_z_obl_d {
+    /*- черный, Arial, 9, bold, halo(оно же "неоновое свечение") - светлосерый, offset - 3 pt*/
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: none;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-8_z_obl_u {
+    /*- черный, Arial, 9, bold, halo(оно же "неоновое свечение") - светлосерый, offset - 3 pt*/
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: none;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-8_z_obl_r {
+    /*- справа, черный, Arial, 9, bold, halo(оно же "неоновое свечение") - светлосерый, offset - 4 pt*/
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: none;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+    margin-left: 1px;
+}
+
+.label-8_z_obl_l {
+    /*- слева, черный, Arial, 9, bold, halo(оно же "неоновое свечение") - светлосерый, offset - 4 pt*/
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: none;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+    margin-right: 1px;
+}
+
+.label-8_z_cities_more100_r {
+    /*- справа, черный, Arial, 8, halo(оно же "неоновое свечение") - светлосерый, offset - 4 pt*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: none;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+    margin-left: 1px;
+}
+
+.label-9_10_z_cities {
+    /*по центру, черный, Arial, 8, bold, AllCaps, halo - светлосерый, без offset*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-9_10_z_smt {
+    /*по центру, черный, Arial, 8, bold, halo - светлосерый, без offset*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: none;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-11_12_z_cities {
+    /*по центру, черный, Arial, 9, bold, AllCaps, halo - светлосерый, без offset*/
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-11_12_z_smt {
+    /*по центру, черный, Arial, 9, bold, halo - светлосерый, без offset*/
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: none;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-11_12_z_vill {
+    /*по центру, черный, Arial, 8, italic, halo - светлосерый, без offset*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: none;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-12_13_14_z_city {
+    /*справа, черный, Arial, 9, bold, AllCaps, halo-светлосерый*/
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-13_14_z_vill {
+    /*справа, черный, Arial, 9, bold, italic, halo-светлосерый*/
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: none;
+    font-style: italic;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-12_13_14_z_l_city {
+    /*слева, черный, Arial, 9, bold, AllCaps, halo-светлосерый*/
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-13_14_z_l_vill {
+    /*слева, черный, Arial, 9, bold, italic, halo-светлосерый*/
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: none;
+    font-style: italic;
+    color: #000000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-13_14_z_Dens1 {
+    /*сверху, красный, Arial, 8, bold, halo-светлосерый*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: none;
+    color: #FF0000;
+    text-shadow: 1px 0px 2px white;
+    margin: 3px 0 0;
+}
+
+.label-13_14_z_Dens2 {
+    /*сверху, синий, Arial, 8, bold, halo-светлосерый*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: none;
+    color: #0000FF;
+    text-shadow: 1px 0px 2px white;
+    margin: -3px 0 0;
+}
+
+.label-13_14_z_cent_blue {
+    /*по центру, синий, Arial, 8, bold, halo-светлосерый*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: none;
+    color: #0000FF;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-13_14_z_r_blue {
+    /*справа, синий, Arial, 8, bold, halo-светлосерый*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: none;
+    color: #0000FF;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-13_14_z_r_red {
+    /*справа, красный, Arial, 8, bold, halo-светлосерый*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: none;
+    color: #FF0000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-Graph_8_z_l {
+    /*слева, темно-серый, 8, halo-светлосерый*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: none;
+    color: #585858;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-Graph_8_z_d {
+    /*слева, темно-серый, 8, halo-светлосерый*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: none;
+    color: #585858;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-Med_7_8_z_red_u {
+    /*сверху, красный, Arial, 8, bold, halo-светлосерый*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: none;
+    color: #FF0000;
+    text-shadow: 1px 0px 2px white;
+    margin: 5px 0 0;
+}
+.label-Med_7_8_z_red_c {
+    /*центр, красный, Arial, 8, bold, halo-светлосерый*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: none;
+    color: #FF0000;
+    text-shadow: 1px 0px 2px white;
+}
+
+.label-Med_7_8_z_blue_d {
+    /*снизу, синий, Arial, 8, bold, halo-светлосерый*/
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: none;
+    color: #0000FF;
+    text-shadow: 1px 0px 2px white;
+    margin: -2px 0 0;
+}

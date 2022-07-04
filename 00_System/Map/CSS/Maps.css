@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    background-color: #fffff7;
+    margin: 0px !important;
+}
+
+.infoTable {
+    border: 1px solid #a3a3a3;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+    .infoTable td {
+        border: 1px solid #a3a3a3;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+.infoValue {
+    font-weight: normal;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.labelNotViz {
+    display: none !important;
+}
+
+#MapName-div {
+    background: url("../../../00_System/Images/Nav_02.gif") repeat-x fixed center top rgba(255, 255, 247, 0.8);
+    color: #c00;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    left: 0;
+    margin: -8px;
+    padding: 23px 30px 0 60px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    z-index: 2;
+}
